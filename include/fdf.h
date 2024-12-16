@@ -13,7 +13,8 @@
 #ifndef FDF_H
 # define FDF_H
 
-# include "../libft/includes/libft.h"
+# include "../libft/ft_printf/include/ft_printf.h"
+# include "../libft/get_next_line/includes/get_next_line.h"
 # include "../minilibx-linux/mlx.h"
 # include <X11/X.h>
 # include <X11/keysym.h>
