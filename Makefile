@@ -33,7 +33,7 @@ SRC = src/main.c \
 OBJ = $(SRC:.c=.o)
 CC = cc
 C_FLAGS = -Wall -Wextra -Werror -g3
-INC_LIBFT = ./libft/libft.a
+INC_LIBFT = ./libft/megalibft.a
 INC_MINILIBX = -L./minilibx-linux -lmlx -lX11 -lXext
 INC_MATH = -lm
 DIR_MINILIBX = ./minilibx
